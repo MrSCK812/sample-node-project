@@ -50,4 +50,4 @@ jobs:
         app-name: 'flutter812'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_3ac1e46e01b74c9190462558eeaa6053 }}
-        images: 'acrimagerepo01.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_49e20fdcec3f4e069dc756dd94571461 }}/flutter/flutterweb:${{ github.sha }}'
+        images: 'acrimagerepo01.azurecr.io/nodejs/sample:${{ github.sha }}'
